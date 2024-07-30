@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f2f5;
+}
+.container{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.left-login{
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: start;
+
+}
+.left-login img{
+    width: 320px;
+}
+.left-login h2{
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 30px;
+    width: 500px;
+}
+.right-login{
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 50px;
+}
+.login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background: white;
+    border-radius: 5px;
+
+}
+.top-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 396px;
+}
+.top-login input{
+    width: 95%;
+    padding: 12px 14px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.top-login button{
+    width: 95%;
+    padding: 14px 16px;
+    background: #0866ff;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.top-login a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.top-login a:hover{
+    text-decoration: underline;
+
+}
+.line{
+    width: 95%;
+    height: 1px;
+    background: lightgray;
+}
+.newacc{
+    width: 50%;
+    padding: 10px 15px;
+    background: #42b72a;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.aob a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.aob a:hover{
+    text-decoration: underline;
+}
+input::placeholder{
+    font-size: 20px;
+    color: rgb(148, 146, 146);
+}
